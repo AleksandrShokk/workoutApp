@@ -1,0 +1,14 @@
+.wrapperButton {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 10px;
+	> div {
+		&:last-child > button {
+			background-color: #20366b;
+			&:hover {
+				background-color: lighten($color: #20366b, $amount: 20%);
+			}
+		}
+	}
+}

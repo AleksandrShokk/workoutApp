@@ -1,0 +1,23 @@
+@import '../../../style/variable';
+
+$accent-04: darken($accent, 25%);
+.authButton {
+	border: none;
+	outline: none;
+	font-size: 18px;
+	border-radius: 10px;
+	padding: 10px 20px;
+	transition: 0.2s;
+	background-color: $accent-04;
+	margin-right: 5px;
+	cursor: pointer;
+	color: white;
+	margin-right: 10px;
+	@media (max-width: $mobile) {
+		font-size: 16px;
+		padding: 12px 38px;
+	}
+	&:hover {
+		background-color: $accent;
+	}
+}
