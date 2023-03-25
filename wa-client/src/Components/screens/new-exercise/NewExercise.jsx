@@ -41,7 +41,7 @@ const NewExercise = () => {
 
 	return (
 		<Layout
-			bgImg='/gigatrain.avif'
+			bgImg='/gigachad.jpg'
 			heading='Create new exercise'
 			backLink='/new-workout'
 		>

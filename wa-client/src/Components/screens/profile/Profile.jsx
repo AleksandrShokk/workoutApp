@@ -1,10 +1,9 @@
-import gigaProfile from '/public/gigaprofile.jpg'
+import gigaProfile from '/gigaprofile.jpg'
 import cn from 'clsx'
 import React from 'react'
 
 import { useProfile } from '../../../hooks/useProfile'
 
-import Layout from '../../layouts/Layout'
 import stylesLayout from '../../layouts/Layout.module.scss'
 import Header from '../../layouts/header/Header'
 

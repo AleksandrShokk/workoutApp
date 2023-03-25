@@ -22,7 +22,7 @@ const NewWorkout = () => {
 	} = useNewWorkout()
 
 	return (
-		<Layout bgImg='/gigatrain.avif' heading='Create new workout'>
+		<Layout bgImg='/gigachad.jpg' heading='Create new workout'>
 			<div className='wrapper-inner-page'>
 				{isSuccess && <Alert text='Workout created' />}
 				{isLoading && <Loader />}

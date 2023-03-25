@@ -17,13 +17,13 @@ const ExerciseLog = ({ data, isSuccess, isLoading }) => {
 					<img
 						src={
 							import.meta.env.VITE_SERVER_URL +
-							data.exercise[0].iconPath
+							data.exercise.iconPath
 						}
 						height={34}
 						alt='exercise icon'
 					/>
 					<h1 className={stylesLayout.heading}>
-						{data.exercise[0].name}
+						{data.exercise.name}
 					</h1>
 				</div>
 			)}
